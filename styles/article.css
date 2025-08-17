@@ -1,0 +1,199 @@
+/***** Articolo *****/
+/***** Articolo *****/
+/***** Articolo *****/
+
+.articolo {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+h2 {
+  width: 100%;
+  align-self: stretch;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  align-items: center;
+}
+
+.text-block {
+  display: flex;
+  max-width: 700px;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  align-self: center;
+}
+
+.normal-text {
+  align-self: stretch;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.big-text {
+  align-self: stretch;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.bullet-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.articolo-ul {
+  list-style-position: outside;
+  padding-left: 20px;
+  width: 100%;
+
+}
+
+.articolo-ul li {
+  align-self: stretch;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+img {
+  display: flex;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.celiac,
+.sintomi,
+.malattie {
+  display: flex;
+  padding: 80px 0px;
+  flex-direction: column;
+  gap: 60px;
+  align-self: stretch;
+  align-items: center;
+}
+
+/***** Articolo / Adaptive *****/
+
+@media (max-width: 1024px) {
+  .articolo {
+    padding: 0 80px;
+    max-width: 700px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  p.normal-text {
+    font-size: 20px;
+  }
+
+  .articolo-ul li {
+    font-size: 20px;
+  }
+
+  p.big-text {
+    font-size: 22px;
+  }
+
+  img {
+    max-width: 600px;
+  }
+
+  .celiac,
+  .sintomi,
+  .malattie {
+    gap: 60px;
+    padding: 80px 0px;
+  }
+
+  .text-block {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 920px) {
+  .articolo {
+    padding: 0 60px;
+    max-width: 600px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p.normal-text {
+    font-size: 18px;
+  }
+
+  .articolo-ul li {
+    font-size: 18px;
+  }
+
+  p.big-text {
+    font-size: 20px;
+  }
+
+  .celiac,
+  .sintomi,
+  .malattie {
+    gap: 40px;
+    padding: 60px 0px;
+  }
+
+  .text-block {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 520px) {
+  .articolo {
+    padding: 0 40px;
+    max-width: 400px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p.normal-text {
+    font-size: 16px;
+  }
+
+  .articolo-ul li {
+    font-size: 16px;
+  }
+
+  p.big-text {
+    font-size: 18px;
+  }
+
+  .celiac,
+  .sintomi,
+  .malattie {
+    gap: 24px;
+    padding: 40px 0px;
+  }
+
+  .text-block {
+    gap: 24px;
+  }
+}

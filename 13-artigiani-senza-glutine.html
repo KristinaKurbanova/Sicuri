@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S. Artigiani del senza glutine</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/place.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="styles/img/general/flavicon1.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <!--- Header --->
+
+    <header class="header">
+      <a href="index.html" class="logo">SICURI.</a>
+
+      <!--- Burger Menu --->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="burger">
+        <img
+          src="styles/img/general/burger.svg"
+          alt="Menu"
+          class="burger-open"
+        />
+        <img
+          src="styles/img/general/burger-close.svg"
+          alt="Close"
+          class="burger-close"
+        />
+      </label>
+      <nav class="menu">
+        <ul class="main-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="01-celiachia.html">Celiachia</a></li>
+          <li class="grouped">
+            <a href="02-tutti-locali.html">Tutti locali</a>
+            <a href="03-fast-food.html">Fast food</a>
+            <a href="04-ristoranti.html">Ristoranti</a>
+            <a href="05-panifici.html">Panifici</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--- Main Content --->
+
+    <main>
+      <!--- Hero --->
+
+      <section class="hero">
+        <div class="tags">
+          <div class="tag-text">
+            <p>panificio</p>
+          </div>
+          <div class="tag-icon">
+            <img src="styles/img/place/aic.svg" alt="AiC" class="icon" />
+            <img
+              src="styles/img/place/gluten.svg"
+              alt="gluten-free"
+              class="icon"
+            />
+            <img
+              src="styles/img/place/lactose.svg"
+              alt="lactose-free"
+              class="icon"
+            />
+            <img
+              src="styles/img/place/delivery.svg"
+              alt="delivery"
+              class="icon"
+            />
+          </div>
+        </div>
+        <h1 class="border">Artigiani del senza glutine</h1>
+      </section>
+
+      <!--- Section 1 / Descrizione --->
+
+      <section>
+        <div class="descrizione">
+          <h2>Descrizione</h2>
+          <p class="normal-text">
+            Il panificio Gli artigiani del senza glutine, si trovano in un punto
+            strategico di Catania, in corso delle Province, vicino due sedi
+            dell’Università di Catania e al tribunale di Catania, alle strade
+            principali del centro. E’ aperto da più di 10 anni, quindi sinonimo
+            di garanzia.
+            <span class="p-margin"
+              >Il panificio pur essendo piccolino all’interno, è organizzato in
+              maniera efficiente, meravigliosa la vetrata che separata la zona
+              di vendita dal laboratorio, così da poter ammirare il lavoro in
+              tempo reale e la pulizia.
+            </span>
+          </p>
+        </div>
+      </section>
+
+      <!--- Section 2 / Gallery --->
+
+      <section>
+        <div class="gallery">
+          <img src="styles/img/place/13-1.png" alt="Foto" class="place-foto1" />
+          <img src="styles/img/place/13-2.png" alt="Foto" class="place-foto2" />
+          <img src="styles/img/place/13-3.png" alt="Foto" class="place-foto3" />
+        </div>
+      </section>
+
+      <!--- Section 3 / Menu --->
+
+      <section>
+        <div class="info-menu">
+          <h2>Menu</h2>
+          <p class="normal-text">
+            Oltre al pane, si possono gustare prodotti di rosticceria (arancini,
+            cattucciate, pizza), colazione (cornetti, graffe, bombolotti alla
+            crema), pasticceria (mignon, biscotti, zeppole), torte (la torta con
+            le fragoline, della nonna, tiramisù), pasta fresca.
+          </p>
+        </div>
+      </section>
+
+      <!--- Section 4 / Info --->
+      <section>
+        <div class="info">
+          <!--- Title --->
+          <div class="info-title">
+            <h2>Informazioni</h2>
+            <div class="info-icons">
+              <a
+                href="https://www.facebook.com/artigianidelsenzaglutine/?locale=it_IT"
+                target="_blank"
+              >
+                <img
+                  src="styles/img/place/fb.svg"
+                  alt="Facebook"
+                  class="info-icon"
+                />
+              </a>
+            </div>
+          </div>
+
+          <!--- Info --->
+          <div class="info-item">
+            <div class="info-sub-item">
+              <h4>Indirizzo</h4>
+              <p>Corso delle Province, 144, Catania</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-sub-item">
+              <h4>Telefono</h4>
+              <p>+39 389 175 4516</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-sub-item">
+              <h4>Budget</h4>
+              <p>5-10 € / persona</p>
+            </div>
+            <div class="info-sub-item">
+              <h4>Zona</h4>
+              <p>Centro, vicino Piazza Giacomo Leopardi</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-sub-item">
+              <h4>Orari</h4>
+              <div class="orari">
+                <p>Domenica</p>
+                <p>Chiuso</p>
+              </div>
+              <div class="orari">
+                <p>Lun, Mar, Mer, Gio, Ven, Sab</p>
+                <p>08:30–12:10; 16:30–19:30</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-sub-item">
+              <h4>Parcheggio</h4>
+              <p>
+                Non ci sono parcheggi in zona, se non sulle strisce blu,
+                difficile da raggiungere in macchina. Facile da raggiungere
+                tramite la metro
+              </p>
+            </div>
+            <div class="info-sub-item">
+              <h4>Servizi igienici</h4>
+              <p>Non sono presenti i servizi igienici</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--- Footer --->
+
+    <footer>
+      <a href="index.html" class="logo-footer"> SICURI. </a>
+      <div class="content-footer">
+        <a href="06-chi-siamo.html"> Chi siamo </a>
+        <p>
+          Non-commercial project. All images belong to their copyright holders.
+          Catania (CT), 2025
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

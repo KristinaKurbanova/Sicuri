@@ -1,0 +1,251 @@
+/***** Hero *****/
+/***** Hero *****/
+/***** Hero *****/
+
+.hero {
+  height: 400px;
+}
+
+.hero span {
+  display: block;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.hero span.margin {
+  margin-top: 16px;
+}
+
+.hero span.border {
+  display: flex;
+  padding: 8px 40px;
+  margin-top: 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  background: #fff;
+}
+
+/***** Intro *****/
+/***** Intro *****/
+/***** Intro *****/
+
+.intro {
+  display: flex;
+  margin: 0 auto;
+  padding: 80px 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.intro p {
+  align-self: stretch;
+  max-width: 580px;
+  align-self: stretch;
+}
+
+/***** Intro / Adaptive *****/
+
+@media (max-width: 1024px) {
+  .intro {
+    padding: 80px 80px;
+  }
+}
+
+@media (max-width: 920px) {
+  .intro {
+    padding: 80px 60px;
+  }
+}
+
+@media (max-width: 520px) {
+  .intro {
+    padding: 80px 40px;
+  }
+}
+
+/***** Choice *****/
+/***** Choice *****/
+/***** Choice *****/
+
+.choice {
+  display: flex;
+  padding: 80px 100px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.choice h2 {
+  text-transform: uppercase;
+}
+
+.cards {
+  display: flex;
+  padding-bottom: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  align-self: stretch;
+}
+
+.card {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.card-text p.subtitle {
+  color: rgba(26, 26, 26, 0.5);
+  text-align: center;
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+
+/***** Choice / Adaptive *****/
+
+@media (max-width: 1024px) {
+  .choice {
+    padding: 80px 80px;
+  }
+
+  .card-text p.subtitle {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 920px) {
+  .choice {
+    padding: 80px 60px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .card-text p.subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 520px) {
+  .choice {
+    padding: 80px 40px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card img {
+    width: 100%;
+    max-width: 140px;
+    height: auto;
+  }
+  .card-text p.subtitle {
+    font-size: 18px;
+  }
+}
+
+/***** Celiacia *****/
+/***** Celiacia *****/
+/***** Celiacia *****/
+
+.celiachia {
+  display: flex;
+  padding: 80px 160px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.celiachia img {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+
+.celiachia p {
+  margin: 0 auto;
+  max-width: 580px;
+  align-self: stretch;
+}
+
+@media (max-width: 1024px) {
+  .celiachia {
+    padding: 80px 80px;
+  }
+
+  .celiachia img {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 920px) {
+  .celiachia {
+    padding: 80px 60px;
+  }
+
+  .celiachia img {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 520px) {
+  .celiachia {
+    padding: 80px 40px;
+  }
+
+  .celiachia img {
+    max-width: 400px;
+  }
+}
+
+
