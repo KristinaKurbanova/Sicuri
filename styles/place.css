@@ -201,7 +201,7 @@
   margin: 0 auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1070px) {
   .gallery {
     padding: 40px 80px;
     gap: 60px;
@@ -371,10 +371,6 @@ h4 {
 
   .info-sub-item {
     gap: 6px;
-  }
-
-  .orari p {
-    width: inherit;
   }
 
   h4 {
