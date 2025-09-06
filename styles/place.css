@@ -379,6 +379,7 @@ h4 {
 
   .info-sub-item p {
     font-size: 14px;
+    max-width: fit-content;
   }
 }
 
